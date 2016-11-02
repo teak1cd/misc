@@ -22,7 +22,7 @@ function flip(){
     o=t[i] +" " + o +" "+ t[t.length-1-i];
     o = flips(o);
   }
-  console.log(i);
+  console.log(o.split(" ").length);
   console.log(t.length);
   document.getElementById("output").value=o;
   return "";
